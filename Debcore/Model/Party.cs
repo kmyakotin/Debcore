@@ -13,6 +13,7 @@ namespace Debcore.Model
     public class Party
     {
         [BsonId]
+        [BsonIgnoreIfDefault]
         public ObjectId BsonId { get; set; }
 
         [BsonElement("partyId")]

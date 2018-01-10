@@ -14,8 +14,6 @@ namespace Data
         public IMongoDatabase Data => Client.GetDatabase("deb");
         public IMongoCollection<Party> Parties => Data.GetCollection<Party>("party");
 
-        //todo implement generic CRUD methods
-
         public MongoDb(string connectionString)
         {
             Client = new MongoClient(connectionString);
@@ -23,25 +21,24 @@ namespace Data
 
         public async Task<Party> GetParty(string name)
         {
+            //todo name is not unique, fix 
             return await (await Parties.FindAsync(x => x.Name == name)).SingleOrDefaultAsync();
         }
 
         public async Task<Party> SaveParty(Party party)
         {
-            //todo ensure its null for insert
-//            if (party.BsonId != null)
-//            {
-//                await Parties.InsertOneAsync(party);
-//                return party;
-//            }
-
-//            var res = await Parties.ReplaceOneAsync(Builders<Party>.Filter.Eq(x => x.PartyId == party.PartyId, true),
-//                party, new UpdateOptions() {IsUpsert = true});
+            // todo test save always insert, because partyId = Guid.NewGuid(). test it
             var res = await Parties.ReplaceOneAsync(new BsonDocument("partyId", party.PartyId), party,
                 new UpdateOptions() {IsUpsert = true});
             Debug.Assert(res.UpsertedId == party.BsonId, "res.UpsertedId == party.BsonId");
 
             return party;
+        }
+
+        public Task DeleteParty(Guid partyId)
+        {
+            // todo implement delete party
+            throw new NotImplementedException(nameof(DeleteParty));
         }
     }
 }

@@ -21,15 +21,25 @@ namespace Debweb.Controllers
             var party = new Party("test");
 
             party.Testify();
-            
+
             return View(party);
         }
 
-        [HttpGet("save")]
-        public async Task<IActionResult> Save()
+        // TODO REST API
+        [HttpGet("{name}")]
+        public async Task<IActionResult> Get(string name)
+        {
+            var party = await _db.GetParty(name);
+            if (party == null)
+                return NotFound();
+            return View("Index", party);
+        }
+
+        [HttpGet("save/{name}")]
+        public async Task<IActionResult> Save(string name)
         {
             //todo as post and get model
-            var party = new Party("NewParty").Testify();
+            var party = new Party(name).Testify();
             var res = await _db.SaveParty(party);
             return View("Index", res);
         }

@@ -48,15 +48,13 @@ namespace Debcore.Model
             return this;
         }
 
-        // MUST MUST MUST
         private Person Consume(Product product)
         {
-            //TODO uncomment
-//            if (product.Participants.Any(pp => pp.Id == this.Id))
-//                return this;
-//
-//            product.Participants.Add(this);
-//            ConsumeProducts.Add(product);
+            if (product.ParticipantsGuids.Any(pp => pp == this.Id))
+                return this;
+
+            product.ParticipantsGuids.Add(this.Id);
+            ConsumeProducts.Add(product);
             return this;
         }
 
@@ -70,8 +68,7 @@ namespace Debcore.Model
 
         public void RemoveConsume(Product product)
         {
-            //TODO UNCOMMENT
-//            product.Participants.Remove(this);
+            product.ParticipantsGuids.Remove(this.Id);
             ConsumeProducts.Remove(product);
         }
     }

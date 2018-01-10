@@ -1,23 +1,22 @@
 ﻿<RecentlyViewedMethods>
   <RecentlyViewedMethods>
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Person.RemoveConsume(Debcore.Model.Product)" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Person.Consume(Debcore.Model.Product)" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Product.PricePerPerson" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Product.PricePerPerson" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Person.GetPaied" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Person.GetCalcDeb" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Party.GetDebsDetails" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Person.GetPaied" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Person.GetCalcDeb" />
-    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/P%3ADebcore.Model.Party.PartyId" />
-    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder%2CMicrosoft.AspNetCore.Hosting.IHostingEnvironment)" />
+    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Index" />
+    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Get(System.String)" />
+    <RecentMethod id="d9756d67-bed3-4ed7-a31b-7294a3043927(Data)-8AD348D3%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3AData.MongoDb.GetParty(System.String)" />
+    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Get(System.String)" />
+    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Save(System.String)" />
+    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Party.%23ctor(System.String%2CSystem.String)" />
+    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/P%3ADebcore.Model.Party.BsonId" />
+    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Party.%23ctor(System.String%2CSystem.String)" />
+    <RecentMethod id="d9756d67-bed3-4ed7-a31b-7294a3043927(Data)-8AD348D3%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3AData.MongoDb.DeleteParty(System.Guid)" />
     <RecentMethod id="d9756d67-bed3-4ed7-a31b-7294a3043927(Data)-8AD348D3%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3AData.MongoDb.SaveParty(Debcore.Model.Party)" />
-    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Save" />
-    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-%5Bcshtml%5D%20Views%5CParty%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3AASP._Page_Views_Party_Index_cshtml.ExecuteAsync" />
-    <RecentMethod id="d9756d67-bed3-4ed7-a31b-7294a3043927(Data)-8AD348D3%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3AData.IMongoDb.SaveParty(Debcore.Model.Party)" />
-    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Save" />
-    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.%23ctor(Data.IMongoDb)" />
+    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Person.Consume(Debcore.Model.Product)" />
+    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/P%3ADebcore.Model.Product.ParticipantsGuids" />
+    <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/P%3ADebcore.Model.Product.Price" />
+    <RecentMethod id="d9756d67-bed3-4ed7-a31b-7294a3043927(Data)-8AD348D3%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3AData.IMongoDb.DeleteParty(System.Guid)" />
+    <RecentMethod id="d9756d67-bed3-4ed7-a31b-7294a3043927(Data)-8AD348D3%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3AData.MongoDb.SaveParty(Debcore.Model.Party)" />
+    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Save(System.String)" />
     <RecentMethod id="feef8fb4-411d-488a-a047-ce5dc25ca5a6(Debcore)-473FF557%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebcore.Model.Party.Testify" />
-    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.Save" />
+    <RecentMethod id="4cf16067-6b59-40d1-8165-5524d1eb7914(Debweb)-9D78A186-WebAppMainModule%5B.NETCoreApp%2CVersion%3Dv2.0%5D/M%3ADebweb.Controllers.PartyController.%23ctor(Data.IMongoDb)" />
   </RecentlyViewedMethods>
 </RecentlyViewedMethods>

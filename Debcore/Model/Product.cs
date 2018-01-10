@@ -20,12 +20,11 @@ namespace Debcore.Model
         public string Name { get; set; }
 
         public decimal Price { get; set; }
-//        public List<Person> Participants { get; set; } = new List<Person>();
+        public List<Guid> ParticipantsGuids { get; set; } = new List<Guid>();
 
         internal decimal PricePerPerson()
         {
-            throw new NotImplementedException("uncomment stub");
-//            return decimal.Divide(Price, Participants.Count);
+            return decimal.Divide(Price, ParticipantsGuids.Count);
         }
     }
 }

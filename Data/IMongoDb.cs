@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Debcore.Model;
 using MongoDB.Driver;
 
@@ -11,5 +12,6 @@ namespace Data
         IMongoCollection<Party> Parties { get; }
         Task<Party> GetParty(string name);
         Task<Party> SaveParty(Party party);
+        Task DeleteParty(Guid partyId);
     }
 }
