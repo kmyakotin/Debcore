@@ -1,31 +1,57 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="0" fromTop="0" />
-    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:DebDeails.cs" caret="513" fromTop="18" />
-    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/f:Program.cs" caret="1860" fromTop="37" />
-    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:ParticipantsManager.cs" caret="0" fromTop="0" />
-    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Product.cs" caret="0" fromTop="0" />
     <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/f:Program.cs" caret="0" fromTop="0" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:IMongoDb.cs" caret="0" fromTop="0" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="616" fromTop="23" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:HomeController.cs" caret="629" fromTop="16" />
     <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Views/d:Home/f:Index.cshtml" caret="43" fromTop="3" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/f:Startup.cs" caret="866" fromTop="27" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:DebDeails.cs" caret="804" fromTop="31" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:NuGet.Config/l:..?..?..?Users?user?AppData?Roaming?NuGet?NuGet.Config" caret="0" fromTop="0" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:Microsoft.VisualStudio.Offline.config/l:..?..?..?Program Files (x86)?NuGet?Config?Microsoft.VisualStudio.Offline.config" caret="230" fromTop="6" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:HomeController.cs" caret="629" fromTop="25" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:IMongoDb.cs" caret="336" fromTop="12" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:FilterDefinitionBuilder`1.cs/l:..?..?..?Users?user?.Rider2017.3?config?resharper-host?DecompilerCache?decompiler?A9433D15-B1CD-4992-BD76-673686DC975C?04?c98242d3?FilterDefinitionBuilder`1.cs" caret="17719" fromTop="12" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:Controller.cs/l:..?..?..?Users?user?.Rider2017.3?config?resharper-host?DecompilerCache?decompiler?6597069D-C130-4A93-A3AA-6CEECFB8E990?0c?453b33a2?Controller.cs" caret="5739" fromTop="12" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Views/d:Party/f:Index.cshtml" caret="215" fromTop="12" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:AsyncTaskMethodBuilder`1.cs/l:..?..?..?Users?user?.Rider2017.3?config?resharper-host?DecompilerCache?decompiler?6982C37D-6BC4-4C6E-8D9A-80C4EC1D09A3?8c?6963e559?AsyncTaskMethodBuilder`1.cs" caret="870" fromTop="12" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:Thread.cs/l:..?..?..?Users?user?.Rider2017.3?config?resharper-host?DecompilerCache?decompiler?6982C37D-6BC4-4C6E-8D9A-80C4EC1D09A3?b6?e8aeb799?Thread.cs" caret="5357" fromTop="12" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:ExecutionContext.cs/l:..?..?..?Users?user?.Rider2017.3?config?resharper-host?DecompilerCache?decompiler?6982C37D-6BC4-4C6E-8D9A-80C4EC1D09A3?a0?7bb54918?ExecutionContext.cs" caret="4657" fromTop="13" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/f:Startup.cs" caret="1416" fromTop="16" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:HostingEnvironmentExtensions.cs/l:..?..?..?Users?user?.Rider2017.3?config?resharper-host?DecompilerCache?decompiler?787731CC-AF9B-4845-B917-241A8A2C9DD5?b9?0cb659a4?HostingEnvironmentExtensions.cs" caret="1237" fromTop="21" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:PartyController.cs" caret="712" fromTop="27" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/f:Program.cs" caret="1440" fromTop="23" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="812" fromTop="6" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Product.cs" caret="705" fromTop="28" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="1280" fromTop="10" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="891" fromTop="16" />
   </RecentFiles>
   <RecentEdits>
-    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:ParticipantsManager.cs" caret="0" fromTop="0" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="0" fromTop="0" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="269" fromTop="10" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="157" fromTop="6" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="757" fromTop="24" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:IMongoDb.cs" caret="0" fromTop="0" />
-    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="498" fromTop="17" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/f:Startup.cs" caret="1008" fromTop="24" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/f:Startup.cs" caret="825" fromTop="25" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:HomeController.cs" caret="721" fromTop="17" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:HomeController.cs" caret="427" fromTop="15" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:HomeController.cs" caret="684" fromTop="15" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:HomeController.cs" caret="605" fromTop="15" />
-    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Views/d:Home/f:Index.cshtml" caret="61" fromTop="3" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/f:Program.cs" caret="186" fromTop="10" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Views/d:Party/f:Index.cshtml" caret="26" fromTop="0" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="710" fromTop="23" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="784" fromTop="27" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="375" fromTop="14" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="592" fromTop="23" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:IMongoDb.cs" caret="422" fromTop="11" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="215" fromTop="7" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="429" fromTop="14" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="871" fromTop="29" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="1907" fromTop="29" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="1849" fromTop="10" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="3047" fromTop="33" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:PartyController.cs" caret="289" fromTop="11" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:IMongoDb.cs" caret="336" fromTop="12" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:PartyController.cs" caret="713" fromTop="30" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:PartyController.cs" caret="778" fromTop="32" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/d:Controllers/f:PartyController.cs" caret="139" fromTop="7" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/f:Startup.cs" caret="1648" fromTop="24" />
+    <File id="4CF16067-6B59-40D1-8165-5524D1EB7914/f:Startup.cs" caret="1416" fromTop="16" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Party.cs" caret="461" fromTop="17" />
+    <File id="D9756D67-BED3-4ED7-A31B-7294A3043927/f:MongoDb.cs" caret="1394" fromTop="27" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="831" fromTop="20" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="677" fromTop="12" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Product.cs" caret="705" fromTop="28" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="1471" fromTop="23" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="1338" fromTop="19" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="1827" fromTop="31" />
+    <File id="FEEF8FB4-411D-488A-A047-CE5DC25CA5A6/d:Model/f:Paritcipant.cs" caret="1265" fromTop="10" />
   </RecentEdits>
 </RecentFiles>

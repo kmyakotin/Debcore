@@ -5,7 +5,7 @@ namespace Debcore.Model
 {
     public class Product
     {
-        public Product() 
+        public Product()
         {
             Id = Guid.NewGuid();
         }
@@ -18,12 +18,14 @@ namespace Debcore.Model
 
         public Guid Id { get; }
         public string Name { get; set; }
+
         public decimal Price { get; set; }
-        public List<Person> Participants { get; set; } = new List<Person>();
+//        public List<Person> Participants { get; set; } = new List<Person>();
 
         internal decimal PricePerPerson()
         {
-            return decimal.Divide(Price, Participants.Count);
+            throw new NotImplementedException("uncomment stub");
+//            return decimal.Divide(Price, Participants.Count);
         }
     }
 }

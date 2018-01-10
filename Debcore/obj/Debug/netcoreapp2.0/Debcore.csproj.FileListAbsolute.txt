@@ -9,3 +9,5 @@ C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.AssemblyInfo.cs
 C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.dll
 C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.pdb
 C:\projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.csprojResolveAssemblyReference.cache
+C:\projects\Debcore\Debcore\bin\Debug\netcoreapp2.0\MongoDB.Bson.dll
+C:\projects\Debcore\Debcore\bin\Debug\netcoreapp2.0\MongoDB.Bson.xml

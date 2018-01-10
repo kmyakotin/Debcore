@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using MongoDB.Bson;
 
 namespace Debcore.Model
 {
@@ -24,7 +25,6 @@ namespace Debcore.Model
         /// <summary>
         /// сколько должен - разница между потратил и потребил и уплатил
         /// </summary>
-        /// <param name="products">All products</param>
         /// <returns></returns>
         internal decimal GetCalcDeb()
         {
@@ -48,17 +48,19 @@ namespace Debcore.Model
             return this;
         }
 
+        // MUST MUST MUST
         private Person Consume(Product product)
         {
-            if (product.Participants.Any(pp => pp.Id == this.Id))
-                return this;
-
-            product.Participants.Add(this);
-            ConsumeProducts.Add(product);
+            //TODO uncomment
+//            if (product.Participants.Any(pp => pp.Id == this.Id))
+//                return this;
+//
+//            product.Participants.Add(this);
+//            ConsumeProducts.Add(product);
             return this;
         }
 
-        internal void Consume(IEnumerable<Product> products)
+        public void Consume(IEnumerable<Product> products)
         {
             foreach (var p in products)
             {
@@ -68,7 +70,8 @@ namespace Debcore.Model
 
         public void RemoveConsume(Product product)
         {
-            product.Participants.Remove(this);
+            //TODO UNCOMMENT
+//            product.Participants.Remove(this);
             ConsumeProducts.Remove(product);
         }
     }

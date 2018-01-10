@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MongoDB.Bson.Serialization.Conventions;
 
 namespace Debweb
 {
@@ -24,21 +25,26 @@ namespace Debweb
         {
             var connection = Configuration.GetConnectionString("Mongo");
             services.AddSingleton<IMongoDb>(provider => new MongoDb(connection));
+            var conventionPack = new ConventionPack {new CamelCaseElementNameConvention()};
+            ConventionRegistry.Register("camelCase", conventionPack, t => true);
             services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+            app.UseDeveloperExceptionPage();
+            app.UseBrowserLink();
+            //todo how to swap into development mode?
+//            if (env.IsDevelopment())
+//            {
+//                app.UseDeveloperExceptionPage();
+//                app.UseBrowserLink();
+//            }
+//            else
+//            {
+//                app.UseExceptionHandler("/Home/Error");
+//            }
 
             app.UseStaticFiles();
 

@@ -20,7 +20,7 @@
       <e p="Model" t="Include">
         <e p="DebDeails.cs" t="Include" />
         <e p="Paritcipant.cs" t="Include" />
-        <e p="ParticipantsManager.cs" t="Include" />
+        <e p="Party.cs" t="Include" />
         <e p="Product.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -41,6 +41,7 @@
         <e p="bundleconfig.json" t="Include" />
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
+          <e p="PartyController.cs" t="Include" />
         </e>
         <e p="Debweb.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -64,6 +65,9 @@
           <e p="Home" t="Include">
             <e p="About.cshtml" t="Include" />
             <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Party" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

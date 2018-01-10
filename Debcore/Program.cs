@@ -8,30 +8,8 @@ namespace Debcore
     {
         static void Main(string[] args)
         {
-            var manager = new ParticipantsManager();
+            var party = new Party("test");
 
-            if (args.Length == 0)
-            {
-                Console.WriteLine("Test args");
-                var script = 
-                    //or some thing like this, or fuck it
-@"вова,вино$100,milk$33:*-вино-алкашка-мясо+вино+алкашка+мясо;
-маша,алкашка$200:0
-коля,0$0:*-вино -мясо;";
-                manager.ParseScript(script);
-            }
-            else if (args.Length == 1)
-            {
-                manager.ParseScript(args[0]);
-            }
-            else
-            {
-                Console.WriteLine("Invalid argument exception");
-                return;
-            }
-            
-            // todo: person, product aliases, to be able handy manage consumes details.
-            // todo: script parsing?
             //manager.AddParticipant("Андрей");
             //manager.AddParticipant("Анна К.");
             //manager.AddParticipant("Анна П.");
@@ -52,15 +30,15 @@ namespace Debcore
             //manager.AddParticipant("Ян").Buy(manager.AddProduct("продукты", 5642));
             //manager.AddParticipant("Яна");
 
-            foreach (var p in manager.Participants)
+            foreach (var p in party.Participants)
             {
-                p.Consume(manager.Products);
+                p.Consume(party.Products);
             }
 
-            manager.Participants.ForEach(x => Console.WriteLine($"{x.Name} {x.GetCalcDeb()}"));
+            party.Participants.ForEach(x => Console.WriteLine($"{x.Name} {x.GetCalcDeb()}"));
 
             Console.WriteLine(); Console.WriteLine();
-            manager.GetDebsDetails().ForEach(x => Console.WriteLine(x.ToString()));
+            party.GetDebsDetails().ForEach(x => Console.WriteLine(x.ToString()));
 
             Console.ReadKey();
         }

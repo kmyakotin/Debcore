@@ -1,4 +1,5 @@
-﻿using Debcore.Model;
+﻿using System.Threading.Tasks;
+using Debcore.Model;
 using MongoDB.Driver;
 
 namespace Data
@@ -7,6 +8,8 @@ namespace Data
     {
         IMongoClient Client { get; }
         IMongoDatabase Data { get; }
-        IMongoCollection<Product> Products { get; }
+        IMongoCollection<Party> Parties { get; }
+        Task<Party> GetParty(string name);
+        Task<Party> SaveParty(Party party);
     }
 }
