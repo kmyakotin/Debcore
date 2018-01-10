@@ -1,0 +1,15 @@
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Debweb.deps.json
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Debweb.runtimeconfig.json
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Debweb.runtimeconfig.dev.json
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Debweb.dll
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Debweb.pdb
+C:\projects\Debcore\Debweb\Debweb\obj\Debug\netcoreapp2.0\Debweb.csprojResolveAssemblyReference.cache
+C:\projects\Debcore\Debweb\Debweb\obj\Debug\netcoreapp2.0\Debweb.csproj.CoreCompileInputs.cache
+C:\projects\Debcore\Debweb\Debweb\obj\Debug\netcoreapp2.0\Debweb.AssemblyInfoInputs.cache
+C:\projects\Debcore\Debweb\Debweb\obj\Debug\netcoreapp2.0\Debweb.AssemblyInfo.cs
+C:\projects\Debcore\Debweb\Debweb\obj\Debug\netcoreapp2.0\Debweb.dll
+C:\projects\Debcore\Debweb\Debweb\obj\Debug\netcoreapp2.0\Debweb.pdb
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Data.dll
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Debcore.dll
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Data.pdb
+C:\projects\Debcore\Debweb\Debweb\bin\Debug\netcoreapp2.0\Debcore.pdb

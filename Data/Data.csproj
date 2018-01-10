@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.5.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Debcore\Debcore.csproj">
+      <Project>{FEEF8FB4-411D-488A-A047-CE5DC25CA5A6}</Project>
+      <Name>Debcore</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
