@@ -1,0 +1,10 @@
+C:\Projects\Debcore\Debcore\bin\Debug\netcoreapp2.0\Debcore.dll
+C:\Projects\Debcore\Debcore\bin\Debug\netcoreapp2.0\Debcore.deps.json
+C:\Projects\Debcore\Debcore\bin\Debug\netcoreapp2.0\Debcore.runtimeconfig.json
+C:\Projects\Debcore\Debcore\bin\Debug\netcoreapp2.0\Debcore.runtimeconfig.dev.json
+C:\Projects\Debcore\Debcore\bin\Debug\netcoreapp2.0\Debcore.pdb
+C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.csproj.CoreCompileInputs.cache
+C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.AssemblyInfoInputs.cache
+C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.AssemblyInfo.cs
+C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.dll
+C:\Projects\Debcore\Debcore\obj\Debug\netcoreapp2.0\Debcore.pdb
