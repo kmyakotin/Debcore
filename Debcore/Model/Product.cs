@@ -16,7 +16,7 @@ namespace Debcore.Model
             Price = price;
         }
 
-        public Guid Id { get; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
 
         public decimal Price { get; set; }
