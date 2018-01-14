@@ -33,7 +33,6 @@
       <e p="Program.cs" t="Include" />
     </e>
     <e p="C:\projects\Debcore\Debweb" t="IncludeFlat">
-      <e p="_ReSharper.Caches\ReSharperHost11.Debweb.00" t="ExcludeRecursive" />
       <e p="Debweb" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -151,5 +150,6 @@
       <e p="Debweb.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\kmyak\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Debweb.-1348491465.00" t="ExcludeRecursive" />
   </component>
 </project>

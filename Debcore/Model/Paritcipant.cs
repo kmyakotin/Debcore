@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using MongoDB.Bson;
 
 namespace Debcore.Model
 {
@@ -17,7 +16,7 @@ namespace Debcore.Model
             Name = name;
         }
 
-        public Guid Id { get; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public List<Product> BuyProducts { get; set; } = new List<Product>();
         public List<Product> ConsumeProducts { get; set; } = new List<Product>();

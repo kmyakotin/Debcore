@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\projects\\Debcore\\Debcore\\Debcore.csproj",
+    "projectUniqueName": "C:\\Projects\\Debcore\\Debcore\\Debcore.csproj",
     "projectName": "Debcore",
-    "projectPath": "C:\\projects\\Debcore\\Debcore\\Debcore.csproj",
-    "outputPath": "C:\\projects\\Debcore\\Debcore\\obj\\",
+    "projectPath": "C:\\Projects\\Debcore\\Debcore\\Debcore.csproj",
+    "outputPath": "C:\\Projects\\Debcore\\Debcore\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

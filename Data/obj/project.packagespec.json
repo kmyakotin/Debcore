@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\projects\\Debcore\\Data\\Data.csproj",
+    "projectUniqueName": "C:\\Projects\\Debcore\\Data\\Data.csproj",
     "projectName": "Data",
-    "projectPath": "C:\\projects\\Debcore\\Data\\Data.csproj",
-    "outputPath": "C:\\projects\\Debcore\\Data\\obj\\",
+    "projectPath": "C:\\Projects\\Debcore\\Data\\Data.csproj",
+    "outputPath": "C:\\Projects\\Debcore\\Data\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp2.0": {
         "projectReferences": {
-          "C:\\projects\\Debcore\\Debcore\\Debcore.csproj": {
-            "projectPath": "C:\\projects\\Debcore\\Debcore\\Debcore.csproj"
+          "C:\\Projects\\Debcore\\Debcore\\Debcore.csproj": {
+            "projectPath": "C:\\Projects\\Debcore\\Debcore\\Debcore.csproj"
           }
         }
       }
