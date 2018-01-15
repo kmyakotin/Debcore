@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debcore", "Debcore\Debcore.csproj", "{BEADAFE8-E67E-47EE-B29B-B763F5307502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{A30C4BF5-2F7B-4325-B0FC-B49C4C4532FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebWebReact", "DebWebReact\DebWebReact.csproj", "{275BF9FF-F1EE-4F7B-948B-403498D95B58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BEADAFE8-E67E-47EE-B29B-B763F5307502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEADAFE8-E67E-47EE-B29B-B763F5307502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEADAFE8-E67E-47EE-B29B-B763F5307502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30C4BF5-2F7B-4325-B0FC-B49C4C4532FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30C4BF5-2F7B-4325-B0FC-B49C4C4532FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30C4BF5-2F7B-4325-B0FC-B49C4C4532FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30C4BF5-2F7B-4325-B0FC-B49C4C4532FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275BF9FF-F1EE-4F7B-948B-403498D95B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275BF9FF-F1EE-4F7B-948B-403498D95B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275BF9FF-F1EE-4F7B-948B-403498D95B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275BF9FF-F1EE-4F7B-948B-403498D95B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
