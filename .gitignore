@@ -10,7 +10,7 @@
 [Bb]in
 [Dd]ebug
 [Bb]uild/
-*.idea*
+.idea*
 *.user
 *.suo
 *.exe
