@@ -48,6 +48,7 @@
             <e p="Home.tsx" t="Include" />
             <e p="Layout.tsx" t="Include" />
             <e p="NavMenu.tsx" t="Include" />
+            <e p="Parties.tsx" t="Include" />
           </e>
           <e p="css" t="Include">
             <e p="site.css" t="Include" />

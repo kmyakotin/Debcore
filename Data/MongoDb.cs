@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
 using Debcore.Model;
@@ -21,8 +24,12 @@ namespace Data
 
         public async Task<Party> GetParty(string name)
         {
-            //todo name is not unique, fix 
-            return await (await Parties.FindAsync(x => x.Name == name)).SingleOrDefaultAsync();
+            return (await GetParties(x => x.Name == name)).SingleOrDefault();
+        }
+
+        public async Task<IEnumerable<Party>> GetParties(Expression<Func<Party, bool>> whereExpression)
+        {
+            return await (await Parties.FindAsync(whereExpression)).ToListAsync();
         }
 
         public async Task<Party> SaveParty(Party party)

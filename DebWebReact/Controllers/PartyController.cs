@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using Data;
 using Debcore.Model;
@@ -29,6 +30,13 @@ namespace Debweb.Controllers
             return View(party);
         }
 
+        [HttpGet("my")]
+        public async Task<IActionResult> Get()
+        {
+            var res = await _db.GetParties(whereExpression => true);
+            return Json(res);
+        }
+
         // TODO REST API
         [HttpGet("{name}")]
         public async Task<IActionResult> Get(string name)
@@ -54,9 +62,9 @@ namespace Debweb.Controllers
             var party = await _db.GetParty(partyName);
             if (party == null)
                 return NotFound("party not found");
-            
+
             var person = party.Participants.SingleOrDefault(x => x.Id == model.PersonId);
-            
+
             if (person == null)
                 return NotFound("Person not found");
 
@@ -64,8 +72,6 @@ namespace Debweb.Controllers
             var res = await _db.SaveParty(party);
             return Json(party);
         }
-
-        
     }
 
     public class BuyProductModel
