@@ -2,22 +2,23 @@ import * as React from 'react';
 import {RouteComponentProps} from 'react-router';
 import 'isomorphic-fetch';
 
-interface FetchParties {
-    parties: Party[];
+interface PartyList {
+    parties: PartyName[];
     loading: boolean;
 }
 
-interface Party {
+interface PartyName {
     name: string;
 }
 
-export class Parties extends React.Component<RouteComponentProps<{}>, FetchParties> {
-    constructor() {
-        super();
+export class Parties extends React.Component<RouteComponentProps<{}>, PartyList> {
+    constructor(props: any) {
+        super(props);
         this.state = {parties: [], loading: true};
-
+        this.handleClick = this.handleClick.bind(this);
+        
         fetch('party/my')
-            .then(response => response.json() as Promise<Party[]>)
+            .then(response => response.json() as Promise<PartyName[]>)
             .then(data => {
                 this.setState({parties: data, loading: false});
             });
@@ -26,7 +27,7 @@ export class Parties extends React.Component<RouteComponentProps<{}>, FetchParti
     public render() {
         let contents = this.state.loading
             ? <p><em>Loading...</em></p>
-            : Parties.renderMyParties(this.state.parties);
+            : this.renderMyParties(this.state.parties);
 
         return <div>
             <h1>My parties</h1>
@@ -35,7 +36,7 @@ export class Parties extends React.Component<RouteComponentProps<{}>, FetchParti
         </div>;
     }
 
-    private static renderMyParties(parties: Party[]) {
+    private renderMyParties(parties: PartyName[]) {
         return <div>
             <table className='table'>
                 <thead>
@@ -46,12 +47,18 @@ export class Parties extends React.Component<RouteComponentProps<{}>, FetchParti
                 <tbody>
                 {parties.map(party =>
                     <tr key={party.name}>
-                        <td>{party.name}</td>
+                        <td><a href="#" onClick={(e) => this.handleClick(party.name, e)}>
+                            {party.name}</a></td>
                     </tr>
                 )}
                 </tbody>
             </table>
         </div>;
+    }
+
+    private handleClick(name: any, e: any) {
+        e.preventDefault();
+        console.log(name); console.log(this);
     }
 }
 
