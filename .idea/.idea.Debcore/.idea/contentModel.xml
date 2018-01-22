@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\projects\Debcore" t="IncludeFlat">
+      <e p="_ReSharper.Caches\ReSharperHost11.Debcore.00" t="ExcludeRecursive" />
       <e p="Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Data.csproj" t="IncludeRecursive" />
@@ -92,11 +93,18 @@
         <e p="webpack.config.js" t="Include" />
         <e p="webpack.config.vendor.js" t="Include" />
         <e p="wwwroot" t="Include">
+          <e p="dist" t="Include">
+            <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="main.js.map" t="Include" />
+            <e p="vendor-manifest.json" t="Include" />
+            <e p="vendor.css" t="Include" />
+            <e p="vendor.js" t="Include" />
+          </e>
           <e p="favicon.ico" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\kmyak\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Debcore.789494619.00" t="ExcludeRecursive" />
   </component>
 </project>
