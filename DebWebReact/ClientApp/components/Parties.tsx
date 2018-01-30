@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {RouteComponentProps} from 'react-router';
 import 'isomorphic-fetch';
+import {NavLink} from "react-router-dom";
+import {Party} from "./Party";
 
 interface PartyList {
     parties: PartyName[];
@@ -16,8 +18,10 @@ export class Parties extends React.Component<RouteComponentProps<{}>, PartyList>
         super(props);
         this.state = {parties: [], loading: true};
         this.handleClick = this.handleClick.bind(this);
-        
-        fetch('party/my')
+
+        fetch('api/party/my')
+            .then(res => console.log(res.json()));
+        fetch('api/party/my')
             .then(response => response.json() as Promise<PartyName[]>)
             .then(data => {
                 this.setState({parties: data, loading: false});
@@ -38,27 +42,19 @@ export class Parties extends React.Component<RouteComponentProps<{}>, PartyList>
 
     private renderMyParties(parties: PartyName[]) {
         return <div>
-            <table className='table'>
-                <thead>
-                <tr>
-                    <th>name</th>
-                </tr>
-                </thead>
-                <tbody>
-                {parties.map(party =>
-                    <tr key={party.name}>
-                        <td><a href="#" onClick={(e) => this.handleClick(party.name, e)}>
-                            {party.name}</a></td>
-                    </tr>
-                )}
-                </tbody>
-            </table>
+            <ul className='nav navbar-nav'>
+                <li>
+                    {parties.map(party =>
+                        <NavLink to={`/party/${party.name}`} exact activeClassName='active'>
+                            {party.name}
+                        </NavLink>
+                    )}</li>
+            </ul>
         </div>;
     }
 
     private handleClick(name: any, e: any) {
-        e.preventDefault();
-        console.log(name); console.log(this);
+        console.log('react rocks')
     }
 }
 

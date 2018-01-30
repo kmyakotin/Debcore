@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Debweb.Controllers
 {
     //TODO add swagger 
-    [Route("party")]
+    [Route("api/[controller]")]
     public class PartyController : Controller
     {
         private readonly IMongoDb _db;
@@ -42,9 +42,7 @@ namespace Debweb.Controllers
         public async Task<IActionResult> Get(string name)
         {
             var party = await _db.GetParty(name);
-            if (party == null)
-                return NotFound();
-            return View("Index", party);
+            return Json(party);
         }
 
         [HttpPost("{name}")]
